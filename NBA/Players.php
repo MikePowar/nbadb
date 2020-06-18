@@ -29,10 +29,14 @@
 <div>
 <form action="selectPlayer.php" method="post">
 <p style="font-size:20px">Search for a player's stats:</p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<button style="height:60px;width:200px" type="submit" name="query" value ='all'>Get all stats</button>
+<br>
+<br>
     <label for="player">Insert a player:</label>
     <input type="text" name="player" size="30">
         <button type="submit" name="query" value ='single'>Search</button>
-        <button type="submit" name="query" value ='all'>Get all stats</button>
+        
 </form>
 </div> 
 </br>
