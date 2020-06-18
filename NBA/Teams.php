@@ -47,8 +47,9 @@
 <h1 class="FormTitle">NBA League Teams:</h1>
 <table>
 		<tr>
-			<th>Title</th>
-			<th>Founded</th>
+	    <th></th>
+	    <th>Title</th>
+            <th>Founded</th>
             <th>Arena</th>
             <th>Division</th>
             <th>Conference</th>
@@ -58,8 +59,9 @@
 		{
 	?>
 			<tr>
+	 	<td><?php echo '<img src = "data:image;base64,'.base64_encode($rows['logo']).'" alt="Image" style = "width: 100px; height: 100px;" >'; ?></td>
                 <td><?php echo $rows['title']; ?></td>
-				<td><?php echo $rows['founded']; ?></td>
+		<td><?php echo $rows['founded']; ?></td>
                 <td><?php echo $rows['arena']; ?></td>
                 <td><?php echo $rows['division']; ?></td>
                 <td><?php echo $rows['conference']; ?></td>
